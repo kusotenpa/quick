@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-no-bind": 0,
+    "no-param-reassign": 0,
+    "arrow-body-style": 0,
+    "padded-blocks": 0,
+    "consistent-return": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "quote-props": 0,
+    "new-cap": 0
+  }
+}
