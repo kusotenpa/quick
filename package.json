@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm-run-all -p server watch",
     "build": "webpack",
     "watch": "webpack -w",
-    "server": "webpack-dev-server",
-    "local": "npm-run-all build server watch"
+    "server": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
